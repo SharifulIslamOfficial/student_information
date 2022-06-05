@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+caption{
+    font-size: 35px;
+    font-weight: bold;
+    background-color: aqua;
+}
+table{
+    margin: 10px auto;
+    width: 90%;
+    border-spacing: 25px;
+    border-collapse: collapse;
+}
+th{
+    font-size: 25px;
+    text-align: center;
+    background-color:aquamarine;
+}
+td{
+    font-size: 20px;
+    text-align: left;
+    padding: 3px 15px;
+    background-color:beige;
+}
+td[class="one"]{
+    background-color: blueviolet;
+    font-style: bold;
+    color:white;
+}
+td[class="two"]{
+    background-color: gold;
+    font-style: bold;
+    color:white;
+}
+table, th, td{
+    border: 2px solid black;
+}
